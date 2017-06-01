@@ -5,7 +5,7 @@
     <ProjectGuid>61f6d581-3798-4bf4-a643-cdb78858e6d9</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>数据类型和变量.py</StartupFile>
+    <StartupFile>字符串和编码.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
