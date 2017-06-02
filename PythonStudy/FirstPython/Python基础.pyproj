@@ -5,7 +5,7 @@
     <ProjectGuid>61f6d581-3798-4bf4-a643-cdb78858e6d9</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>字符串和编码.py</StartupFile>
+    <StartupFile>使用list和tuple.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="使用list和tuple.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="数据类型和变量.py" />
     <Compile Include="字符串和编码.py">
       <SubType>Code</SubType>
