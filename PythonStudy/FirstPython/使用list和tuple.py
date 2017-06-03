@@ -21,3 +21,20 @@ classmates=[123,'apple',[123,'pop'],True]#list元素也可以是另一个list
 print(classmates)
 
 print(classmates[2][1])#获取嵌套list中元素
+
+
+print("/n/n")
+print("~~~~~~~~~~~~~~~~~tuple~~~~~~~~~~~~~~~~~~")
+classmates = ('Michael', 'Bob', 'Tracy')#classmates这个tuple不能变了，它也没有append()，insert()这样的方法。其他获取元素的方法和list是一样的，tuple使用(),list使用[]。
+t=(1,2)
+print(t)#(1,2)
+t=()#定义空tuple
+print(t)#()
+t=(1)#括号()既可以表示tuple，又可以表示数学公式中的小括号
+print(t)#1
+t=(1,)#只有1个元素的tuple定义时必须加一个逗号,，来消除歧义
+print(t)#(1,)
+t = ('a', 'b', ['A', 'B'])
+t[2][0] = 'X'
+t[2][1] = 'Y'
+print(t)
