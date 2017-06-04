@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python基础", "FirstPython\Python基础.pyproj", "{61F6D581-3798-4BF4-A643-CDB78858E6D9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "函数", "函数\函数.pyproj", "{8245FF0D-1C67-4DAC-B62F-4F7D734F26AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{61F6D581-3798-4BF4-A643-CDB78858E6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{61F6D581-3798-4BF4-A643-CDB78858E6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8245FF0D-1C67-4DAC-B62F-4F7D734F26AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8245FF0D-1C67-4DAC-B62F-4F7D734F26AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
