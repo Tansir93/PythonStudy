@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6e06e31e-67a6-431a-9ba8-b4c9f7a16b35</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>切片.py</StartupFile>
+    <StartupFile>生成器.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="切片.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="列表生成式.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="生成器.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="高级函数.py" />
