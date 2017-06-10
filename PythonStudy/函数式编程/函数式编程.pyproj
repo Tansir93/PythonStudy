@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7a1ab2e-66f7-4139-b287-87abf73aa153</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>map和reduce.py</StartupFile>
+    <StartupFile>filter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="filter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="map和reduce.py">
       <SubType>Code</SubType>
     </Compile>
