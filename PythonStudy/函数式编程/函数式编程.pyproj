@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7a1ab2e-66f7-4139-b287-87abf73aa153</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>filter.py</StartupFile>
+    <StartupFile>偏函数.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,19 @@
     <Compile Include="map和reduce.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="偏函数.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="函数式编程.py" />
+    <Compile Include="装饰器.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="排序算法.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="返回函数.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
