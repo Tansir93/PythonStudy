@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ffaf7f69-911e-4d3d-adc3-44507ba7952f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>面向对象编程.py</StartupFile>
+    <StartupFile>继承和多态.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="继承和多态.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="面向对象编程.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

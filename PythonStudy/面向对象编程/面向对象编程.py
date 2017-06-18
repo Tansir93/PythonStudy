@@ -24,3 +24,4 @@ class Student(object):#class后面紧接着是类名，即Student，类名通常
 bart = Student()#创建实例
 bart.name = 'Bart Simpson'#可以自由地给一个实例变量绑定属性
 print(bart.name)
+
