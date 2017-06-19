@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ffaf7f69-911e-4d3d-adc3-44507ba7952f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>继承和多态.py</StartupFile>
+    <StartupFile>实例属性和类属性.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="实例属性和类属性.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="继承和多态.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="获取对象.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="面向对象编程.py" />
