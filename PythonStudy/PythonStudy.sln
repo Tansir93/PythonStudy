@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python基础", "FirstPython\Python基础.pyproj", "{61F6D581-3798-4BF4-A643-CDB78858E6D9}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "模块", "模块\模块.pyproj", "{8258E18E-2D3E-4EDE-9C61-88A3FEE0D5AF}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "面向对象编程", "面向对象编程\面向对象编程.pyproj", "{FFAF7F69-911E-4D3D-ADC3-44507BA7952F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "面向对象高级编程", "面向对象高级编程\面向对象高级编程.pyproj", "{EB4977E2-E905-4DFA-A752-12899BAC5C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,8 @@ Global
 		{8258E18E-2D3E-4EDE-9C61-88A3FEE0D5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFAF7F69-911E-4D3D-ADC3-44507BA7952F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFAF7F69-911E-4D3D-ADC3-44507BA7952F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4977E2-E905-4DFA-A752-12899BAC5C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4977E2-E905-4DFA-A752-12899BAC5C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
